@@ -1,0 +1,190 @@
+/*apagar as configurações existente*/
+*{
+	margin:0;
+	padding: 0;
+}
+
+body, html{
+	margin: 0;
+	font: 16px "Lato" , sans-serif;
+	color: #777;
+	height: 100%;
+}
+
+
+#area-menu{
+	padding: 30px;
+	text-align: center;
+}
+
+
+/****formatação menu****/
+#area-menu a{
+	text-decoration: none;
+	color: white;
+	padding: 20px 15px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px; 
+}
+
+#area-menu a:hover{
+	color: #6c7779;
+	background: #c4d3d6;
+	text-decoration: none;
+}
+
+
+.conteudo{
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px; 
+}
+
+.conteudo2{
+	color: white;
+	padding: 15px 15px;
+}
+
+/*h2{
+	color: #6c7779;
+	font-size: 1.1em;
+	padding: 5px 0px;
+}*/
+
+.conteudo h3{
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+	font-family: 'Archivo Black', sans-serif;
+}
+
+/*h4{
+	text-transform: uppercase;
+	color: #6c7779;
+	font-family: 'Archivo Black', sans-serif;
+}*/
+
+.conteudo-titulo h5{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-family: 'Archivo Black', sans-serif;
+	letter-spacing: 10px;
+	font-size: 15px;
+}
+
+.conteudo p{
+	margin-bottom: 20px;
+	text-align: center; 
+}
+
+
+.caixa1, .caixa2, .caixa3, .caixa4{
+	position: relative;
+	height: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1{
+	background-image: url(imagem/imagem1.jpg);
+}
+
+
+.caixa2{
+	background-image: url(imagem/imagem3.jpg);
+}
+
+
+.caixa3{
+	background-image: url(imagem/imagem4.jpg);
+}
+
+.caixa4{
+	background-image: url(imagem/imagem5.jpg);
+}
+
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0%;
+	top: 40%;
+	width: 100%;
+	text-align: center; 
+}
+
+.conteudo-titulo span.titulo{
+	color: #f0efeb;
+	/*background-color: white;*/
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 60px;
+}
+
+/*FORMATAÇÃO DA PÁG LUGARES*/
+#servicos{
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos2{
+	background: #bcdce9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 25px 0px; 
+}
+
+.col-md-6 ul li{
+	float: center;
+	margin: 0px 15px;
+}
+
+/*RODAPÉ*/
+footer{
+	background: #efeeec;
+	padding: 25px 0px 25px 0px;
+	position: relative;
+}
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	float: right;
+	margin: 0px 15px;
+}
+
+.col-md-6 h2{
+	color: #57c098;
+	padding: 5px 0px;
+	font-family:'Archivo Black', sans-serif;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	padding: 15px 0px;
+}
+
+.col-md-6 p{
+	text-align: justify;
+}
+
+.card-body h6 {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: #57c098;
+}
+
+
